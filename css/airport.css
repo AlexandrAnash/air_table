@@ -253,19 +253,19 @@ table#airport-board tbody tr td a {
     left: 0;
 }
 
-#sort-arrival + #sort-departure + table#airport-board .air-arrival {
+#sort-arrival + #sort-departure + div#content-table table#airport-board .air-arrival {
     display: none;
 }
 
-#sort-arrival:checked + #sort-departure + table#airport-board .air-arrival {
+#sort-arrival:checked + #sort-departure + div#content-table table#airport-board .air-arrival {
     display: table-row;
 }
 
-#sort-departure + table#airport-board .air-departure {
+#sort-departure + div#content-table table#airport-board .air-departure {
     display: none;
 }
 
-#sort-departure:checked + table#airport-board .air-departure {
+#sort-departure:checked + div#content-table table#airport-board .air-departure {
     display: table-row;
 }
 
